@@ -55,4 +55,8 @@ public class Deck implements Iterable<Card> {
     return cards.toString();
   }
 
+  public int size() {
+    return cards.size();
+  }
+
 }
